@@ -10,10 +10,18 @@ getInstructions
 //GET (FIND)
 function getRecipes() {
     //select * from users
-    return db.select("*").from("schemes");
+    return db.select("*").from("recipes");
 }
 
-//GET (FIND BY ID)
+//GET RECIPE LIST (FIND BY ID)
+function getShoppingList() {
+    return db.select("*").from("recipes");
+}
+
+//GET RECIPE Instructions (FIND BY ID)
+function getInstructions(){
+    return db.select("*").from("recipes");
+}
 
 //POST (CREATE)
 
