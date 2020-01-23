@@ -1,8 +1,8 @@
 
 exports.seed = function(knex) {
-    return knex('schemes').insert([
+    return knex('recipes').insert([
       {recipe_name: 'Toast'},
-      {recipe_name: 's'},
+      {recipe_name: 'crackers and cheese'},
       {recipe_name: 'PB and J'},
      
     ]);
