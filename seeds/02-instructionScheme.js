@@ -9,7 +9,7 @@ exports.seed = function(knex) {
 
         {   
             recipe_id: 1, 
-            step_number: 2, 
+            step_number: 2,
             directions: "take out toaster, add butter and jam."
          },
 
