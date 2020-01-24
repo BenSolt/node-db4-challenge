@@ -15,12 +15,12 @@ function getRecipes() {
 
 //GET RECIPE LIST (FIND BY ID)
 function getShoppingList() {
-    return db.select("*").from("recipes");
+    return db.select("*").from("ingredients");
 }
 
 //GET RECIPE Instructions (FIND BY ID)
 function getInstructions(){
-    return db.select("*").from("recipes");
+    return db.select("*").from("instructions");
 }
 
 //POST (CREATE)
